@@ -5,10 +5,10 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "82f8496f90b3eac876dcb79398b70c0a"
+        API_ID = 8938259
+        BOT_TOKEN = "1823708981:AAGhXn3nPw0ijiENTt9tRsfkrmwFXXdInv0"
+        BASE_URL_OF_BOT = "https://t.me/joinchat/upRgQO10MCwwM2Ex"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgres://xbyxqwuurvlwov:6e6e916b60e67715fccab4cc1d85c4a8f6dcd04d9c8a6fc753bc0dda51f933d9@ec2-23-22-243-103.compute-1.amazonaws.com:5432/d3p84n1bs36qq7"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -65,7 +65,7 @@ except:
         RCLONE_CONFIG = False
         
         # Name of the RCLONE drive from the config
-        DEF_RCLONE_DRIVE = ""
+        DEF_RCLONE_DRIVE = "True"
 
         # Max size of a playlist that is allowed (Number of videos)
         MAX_YTPLAYLIST_SIZE = 20
